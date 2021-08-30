@@ -1,0 +1,66 @@
+.my-heading-style {
+  background-color: aqua;
+}
+
+.myDiv {
+  background-color: rgba(51, 97, 51, 0.568);
+
+  border: 2px outset red;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  /* background-color: gray;  */
+  margin: 2 px;
+}
+
+div {
+  color: rgb(36, 28, 28);
+  background-color: skyblue;
+  margin: 1px;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Split the screen in half */
+.split {
+  height: 10%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 2px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  /* background-color: #111; */
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  /* background-color: red;  */
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  transform: translate(-5%, -5%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+/*******************************************/
