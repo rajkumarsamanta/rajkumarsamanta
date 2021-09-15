@@ -10,7 +10,8 @@ dates = [
   { eventName: "Completed WD101 - Level 7", date: "Aug 29 2021" },
   { eventName: "Completed WD101 - Level 8", date: "Aug 30 2021" },
   { eventName: "Completed WD201 - Level 1", date: "Sept 02 2021" },
-  { eventName: "Completed WD201 - Level 2", date: "Sept 10 2021" }
+  { eventName: "Completed WD201 - Level 2", date: "Sept 10 2021" },
+  { eventName: "Completed WD201 - Level 3", date: "Sept 15 2021" }
 ];
 
 let result = "";
